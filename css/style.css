@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/***************
+  Typograph
+ ***************/
+body{
+font-family: 'Raleway', sans-serif;
+background:#006064;
+}
+
+h1, h3{
+
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   font-weight: 300;
+   text-transform: uppercase;
+   color:#e0e0e0;
+}
+
+p{
+  color: #484848;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+}
+/****************
+  Navbar
+ ****************/
+.nav{
+  margin-bottom: 20px;
+}
+
+.nav li a{
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.nav li a:hover{
+  background: none;
+}
+
+.nav li a.active{
+  background:#ff6e40;
+}
+
+/*****************
+  Wrapper
+ *****************/
+
+.col-sm-3{
+  text-align: center;
+
+}
+
+.col-sm-3 p{
+  color: #FFF;
+}
+.users{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.users a{
+  color:#9e9e9e;
+}
+
+#name p a{
+  color: #FFF;
+}
+
+#name p a:hover{
+  text-decoration: none;
+}
+
+#status .online{
+  color:#ffeb3b;
+}
+
+#status .offline{
+  color:#FFF;
+}
+
+.img-responsive{
+  width:40px;
+  float: left;
+}
+
+#game .error{
+  color:#ff5722;
+}
+#logo{
+  text-align: center;
+}
+
+#logo .placeholder .fa{
+  text-align: center;
+  color:#c62828;
+}
+
+#logo .user-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+/***************
+  Footer
+ ***************/
+ .container .footer{
+   margin-top: 100px;
+   color: #FFF;
+   font-size: 16px;
+
+ }
+
+ .footer a{
+   padding-left: 10px;
+   color: #ff6f00;
+ }
